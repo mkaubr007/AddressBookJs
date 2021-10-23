@@ -29,7 +29,7 @@
     <form action="#" class="form" onreset="resetForm()" onsubmit="save()">
       <div class="form-head">
         <div class="form-head-text">Person Address Form</div>
-        <a href="../pages/address_book_form.html"><img class="form-head-image" src="../assert/cancel.jpeg"
+        <a href="../page/home.html"><img class="form-head-image" src="../assert/cancel.jpeg"
             alt="logo"></a>
       </div>
     </form>
@@ -52,6 +52,7 @@
       <label for="address" class="label text">Address</label>
       <br>
       <textarea name="address" id="address" placeholder="Your address.." autocomplete="off" required></textarea>
+      <error-output class="address-error"></error-output>
     </div>
     <div class="row-content">
       <div class="column-constrains">
@@ -134,8 +135,8 @@
   </div>
   </div>
 
-   <script src="../js/addressBook.js"></script>
-   <script src="../js/contactData.js"></script>
+   <script src="../js/address.js"></script>
+   <script src="../js/contact.js"></script>
 
 </body>
 
